@@ -12,84 +12,79 @@
     <img src="https://img.shields.io/bower/v/trumbowyg.svg?color=blue&style=for-the-badge" alt="Version on bower" />
 </p>
 
-
-<h2 align="center">Supporting Trumbowyg</h2>
-
-Trumbowyg is an MIT-licensed open source project and completely free to use.
-
-However, the amount of effort needed to maintain and develop new features for
-the project is not sustainable without proper financial backing.
-You can support it's ongoing development by being a backer or a sponsor:
-
-- [Become a backer or sponsor on Patreon](https://www.patreon.com/alexandredemode)
-- [One-time donation via PayPal](https://www.paypal.me/demodealexandre/20eur)
-
-<h3 align="center">Sponsors</h3>
-
-<h4 align="center">Gold</h4>
-
-<p align="center">
-    <a href="https://avot.nl/?ref=trumbowyg">
-        <img src="https://cdn.rawgit.com/Alex-D/Trumbowyg/develop/sponsors/avot.svg" alt="avot®" width="200px"/>
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://www.patreon.com/bePatron?c=1176005&rid=1940456">
-        Become a Sponsor
-    </a>
-</p>
-
-<h4 align="center">Silver</h4>
-
-<p align="center">
-    <a href="https://socialoptic.com/?ref=trumbowyg">
-        <img src="https://rawcdn.githack.com/Alex-D/Trumbowyg/develop/sponsors/socialoptic.png" alt="SocialOptic" width="150px"/>
-    </a>
-</p>
-
-<p align="center">
-    <a href="https://www.patreon.com/bePatron?c=1176005&rid=1940456">
-        Become a Sponsor
-    </a>
-</p>
-
-------------------------------------
-
 ## Introduction
 
 Trumbowyg is a simple and lightweight WYSIWYG editor, weight only 20kB minifed (8kB gzip) for faster page loading.
 
-Visit presentation page: http://alex-d.github.io/Trumbowyg/
+## 2.Getting Started
 
+# Getting Started with Trumbowyg
 
-## Documentation
+## Using CDN
 
-All you need to know about Trumbowyg is here: http://alex-d.github.io/Trumbowyg/documentation/ (or even [on the home](http://alex-d.github.io/Trumbowyg/#get-started))
+### Installation
 
+1. Include Trumbowyg CSS and JS files in your HTML file:
 
-## Contribution
+    ```html
+    <head>
+        <title>Your Web Page</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/trumbowyg@2.26.0/dist/ui/trumbowyg.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/trumbowyg@2.26.0/dist/trumbowyg.min.js"></script>
+    </head>
+    ```
 
-You can contribute to Trumbowyg with translations in languages you know.
-Thanks to `node` and `gulp`, you can improve core script, style or icons easily.
+2. Initialize Trumbowyg on a textarea:
 
-First, fork and clone the repository
+    ```html
+    <body>
+        <textarea id="default-editor"></textarea>
+        <script>
+            $(document).ready(function() {
+                $('#default-editor').trumbowyg();
+            });
+        </script>
+        <div id="default-editor"></div>
+    </body>
+    ```
 
-```bash
-cd Trumbowyg # go into the project's root directory
-npm install # install development dependencies
-npm run dev # watch mode
-npm run build # to build the project
-```
+## Using npm
 
-`gulp` command launch default Gulp task watcher and rebuild on the fly.
+### Installation
 
+1. Install Trumbowyg using npm:
 
-## Stay in touch
+    ```bash
+    npm install trumbowyg
+    ```
 
-For the latest release and announcements, follow on Twitter: [@AlexandreDemode](https://twitter.com/AlexandreDemode)
+2. Include Trumbowyg CSS and JS files in your HTML file:
 
+    ```html
+    <head>
+        <link rel="stylesheet" href="./node_modules/trumbowyg/dist/ui/trumbowyg.min.css">
+        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    </head>
+    ```
 
+3. Initialize Trumbowyg on a textarea:
+
+    ```html
+    <body>
+        <textarea id="default-editor"></textarea>
+        <script>
+            $(document).ready(function(){
+                $('#default-editor').trumbowyg();
+            });
+        </script>
+    </body>
+    ```
+
+Adjust the IDs and file paths as needed for your project.
+
+## conclusion 
+ Getting started with Trumbowyg is a straightforward process, whether you choose to include it via CDN or use npm for package management. By following the outlined steps, you can easily integrate Trumbowyg into your web project, providing users with a powerful and customizable WYSIWYG editor for content creation. Explore Trumbowyg's extensive features to enhance the text editing experience in your applications.
 ## License
 
 This project is under [MIT license](LICENSE).
