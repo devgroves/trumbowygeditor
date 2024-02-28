@@ -1,12 +1,3 @@
-/* ===========================================================
- * trumbowyg.ruby.js v1.0
- * Ruby text plugin for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author	: Fathi Anshory (0x00000F5C)
- * Twitter	: @fscchannl
- * Comment	: Since I use trumbowyg in my project and required it to insert ruby text, so I thought I can contribute a little. :D
- */
 
 (function ($) {
     'use strict';

@@ -1,13 +1,4 @@
-/* ===========================================================
- * trumbowyg.table.js v3.0
- * Table plugin for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Alexandre Demode (Alex-D)
- *          Twitter : @AlexandreDemode
- *          Website : alex-d.fr
- * Original Author : Sven Dunemann [dunemann@forelabs.eu]
- */
+
 
 (function ($) {
     'use strict';

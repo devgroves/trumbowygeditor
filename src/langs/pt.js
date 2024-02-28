@@ -1,13 +1,3 @@
-/* ===========================================================
- * pt.js
- * Portuguese translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Ramiro Varandas Jr (ramirovjr)
- *          Twitter : @ramirovjnr
- *          Website : about.me/ramirovjnr
- *          Github : https://github.com/ramirovjr
- */
 
 jQuery.trumbowyg.langs.pt = {
     viewHTML: 'Ver HTML',

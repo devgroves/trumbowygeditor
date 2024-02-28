@@ -1,12 +1,4 @@
-/* ===========================================================
- * pt_br.js
- * Portuguese Brazilian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Alex Gotardi (alexgotardi)
- *          Twitter : @alexgotardi
- *          Github : https://github.com/alexgotardi
- */
+
 
 // jshint camelcase:false
 jQuery.trumbowyg.langs.pt_br = {

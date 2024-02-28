@@ -1,11 +1,3 @@
-/* ===========================================================
- * de.js
- * German translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Manfred Timm, johangroe
- *          Github : https://github.com/Manfred62, https://github.com/johangroe
- */
 
 jQuery.trumbowyg.langs.de = {
     viewHTML: 'HTML anzeigen',

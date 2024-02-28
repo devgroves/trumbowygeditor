@@ -1,11 +1,4 @@
-/* ===========================================================
- * sl.js
- * Slovenian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author: Matjaz Zavski (https://github.com/matjaz321)
- * Mod: Uros Gaber (uros@powercom.si)
- */
+
 
 jQuery.trumbowyg.langs.sl = {
     viewHTML: 'Prikaži HTML',

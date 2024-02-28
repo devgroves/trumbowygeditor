@@ -1,11 +1,3 @@
-/* ===========================================================
- * az.js
- * Azerbaijani translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Qalib Qurbanov
- *          Github : https://github.com/qalibqurbanov
- */
 
 jQuery.trumbowyg.langs.az = {
     viewHTML: 'HTML Kodu',

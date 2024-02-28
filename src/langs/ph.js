@@ -1,10 +1,4 @@
-/* ===========================================================
- * ph.js
- * Filipino translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : @leogono
- */
+
 
 jQuery.trumbowyg.langs.ph = {
     viewHTML: 'Tumingin sa HTML',

@@ -1,10 +1,4 @@
-/* ===========================================================
- * by.js
- * Belarusian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Yury Karalkou
- */
+
 
 jQuery.trumbowyg.langs.by = {
     viewHTML: 'Паглядзець HTML',

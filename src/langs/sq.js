@@ -1,10 +1,4 @@
-/* ===========================================================
- * sq.js
- * Albanian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Adalen Vladi
- */
+
 
 jQuery.trumbowyg.langs.sq = {
     

@@ -1,14 +1,4 @@
-/* ===========================================================
- * tr.js
- * Turkish translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Emrah Bilbay (munzur)
- *          Github : https://github.com/munzur
- *
- *          Özgür Görgülü (ozgurg)
- *          Github : https://github.com/ozgurg
- */
+
 
 jQuery.trumbowyg.langs.tr = {
     viewHTML: 'HTML Kodu',

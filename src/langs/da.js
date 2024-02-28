@@ -1,11 +1,4 @@
-/* ===========================================================
- * da.js
- * Danish translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Christian Pedersen
- *          Github : https://github.com/chripede
- */
+
 
 jQuery.trumbowyg.langs.da = {
     viewHTML: 'Vis HTML',

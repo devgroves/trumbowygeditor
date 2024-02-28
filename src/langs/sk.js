@@ -1,10 +1,3 @@
-/* ===========================================================
- * sk.js
- * Slovak translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : VeeeneX (https://github.com/VeeeneX)
- */
 
 jQuery.trumbowyg.langs.sk = {
     viewHTML: 'Zobraziť HTML',

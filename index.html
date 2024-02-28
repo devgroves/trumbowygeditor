@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Trumbowyg by Alex-D</title>
+        <title>Trumbowyg</title>
         <base href="/test/base/url/">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <style>
@@ -90,6 +90,7 @@
         </style>
         <link rel="stylesheet" href="/dist/ui/trumbowyg.css">
         <link rel="stylesheet" href="/dist/plugins/colors/ui/trumbowyg.colors.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     </head>
     <body>
         <div class="container">
@@ -105,9 +106,6 @@
             <div id="default-editor">
                 <h2>This editor is the default build of Trumbowyg.</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, <a href="https://alex-d.github.io/Trumbowyg/">consectetur adipisicing</a> elit. Possimus, aliquam, minima fugiat placeat provident optio nam reiciendis eius beatae quibusdam!
-                </p>
-                <p>
                     The text is derived from Cicero's De Finibus Bonorum et Malorum (On the Ends of Goods and Evils, or alternatively [About] The Purposes of Good and Evil ). The original passage began: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit (Translation: &quot;Neither is there anyone who loves grief itself since it is grief and thus wants to obtain it&quot;).
                 </p>
                 <code><pre>
@@ -116,18 +114,14 @@ $('#default-editor').trumbowyg();
             </div>
             <button id="reset-default-editor">Reset</button>
 
+          <div class="container">
             <div id="simple-editor">
-                <h2>This is a minimalist demo of Trumbowyg.</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, aliquam, minima fugiat placeat provident optio nam reiciendis eius beatae quibusdam!
-                </p>
-                <code><pre>
-$('#simple-editor').trumbowyg({
-    btns: ['strong', 'em', 'del']
-});
-                </pre></code>
+                <h2> video and audio demo.</h2>
+                  <input type="file" id="video-input" accept="video/*" style="display: none;">
+        <input type="file" id="audio-input" accept="audio/*" style="display: none;">
             </div>
-
+          </div>  
+ <button id="reset-default">Reset</button> 
             <div id="upload-editor">
                 <h2>This is a minimalist demo of Trumbowyg with upload image plugin.</h2>
                 <p>
@@ -145,13 +139,14 @@ $('#simple-editor').trumbowyg({
                 </pre></code>
             </div>
 
-            <div id="flat-buttonpane">
+            <div class="container"><div id="flat-buttonpane">
                 <h2>All buttons of Trumbowyg are here.</h2>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, aliquam, minima fugiat placeat provident optio nam reiciendis eius beatae quibusdam!
                 </p>
             </div>
-
+            <div><button id="download-docs-btn">Download docs</button></div>
+</div>
           
             <textarea id="form-content" cols="30" rows="10" required>
                 <h1>This editor is create from a textarea</h1>
@@ -196,6 +191,9 @@ $('#form-content').trumbowyg({
         </div>
 
         <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="https://raw.githack.com/evidenceprime/html-docx-js/master/dist/html-docx.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
         <script src="/dist/trumbowyg.js"></script>
         <script src="/dist/langs/fr.min.js"></script>
         <script src="/dist/plugins/base64/trumbowyg.base64.js"></script>
@@ -215,9 +213,19 @@ $('#form-content').trumbowyg({
 
             $('#reset-default-editor').click(function () {
                 $('#default-editor').trumbowyg('empty');
+                  $('#simple-editor').trumbowyg('empty');
+            
+            });
+                let htmlContent = $('#default-editor').trumbowyg('html');
+                let converted = htmlDocx.asBlob(htmlContent);
+                 $('#download-docs-btn').click(function () {
+                  saveAs(converted, 'document.docx');
+            });
+            $('#reset-default').click(function () {
+               // $('#default-editor').trumbowyg('empty');
+                  $('#simple-editor').trumbowyg('empty');
                 console.log($('#default-editor').trumbowyg('html'));
             });
-
             $('#enable-disabled-textarea').click(function () {
                 $('#disabled-textarea').trumbowyg('enable');
             });
@@ -226,8 +234,102 @@ $('#form-content').trumbowyg({
             });
             $('#simple-editor')
               .trumbowyg({
-                btns: ['strong', 'em', 'del']
+                  btns: [
+                    ['viewHTML'],
+                    ['insertVideo', 'insertAudio'],
+                    ['|'], // Separator
+                    ['insertLocalVideo','insertLocalAudio'],
+                ],
+                btnsDef: {
+                    insertVideo: {
+                        fn: function () {
+                            let url = prompt('Enter the video URL:');
+                            if (url) {
+                                if (url.includes('youtube.com') || url.includes('youtu.be')) {
+                let youtubeEmbed = '<div class="embed-container"><iframe width="640" height="360" src="' + getYouTubeEmbedUrl(url) + '" frameborder="0" allowfullscreen></iframe></div>';
+                $('#simple-editor').trumbowyg('html', youtubeEmbed);
+            }
+                              else{
+                                let videoHtml = '<video controls width="640" height="360">';
+                                videoHtml += '<source src="' + url + '" type="video/mp4">';
+                                videoHtml += '</video>';
+                                $('#simple-editor').trumbowyg('html', videoHtml);
+                                videojs('my-video');
+                            }  
+                            }
+                        },
+                     ico: 'upload',
+                    title: 'upload Video'
+                    },
+                    insertAudio: {
+                        fn: function () {
+                            let url = prompt('Enter the audio URL:');
+                            if (url !== null && url !== "") {
+                                let audioHtml = '<audio controls>';
+                                audioHtml += '<source src="' + url + '" type="audio/mp3">';
+                                audioHtml += '</audio>';
+                                console.log(url);
+                                $('#simple-editor').trumbowyg('html', audioHtml);
+                            }
+                        },
+                        ico: 'insertAudio',
+                        title: 'Insert Audio'
+                    },
+                    insertLocalVideo: {
+                         ico: 'upload',
+                    title: 'upload  local Video'
+                    },
+                       insertLocalAudio: {
+                    title: 'Insert Local Audio',
+                    ico:'insertAudio'
+                },
+                },
+            semantic: true,
               });
+          $('.trumbowyg-insertLocalVideo-button').click(function () {
+                $('#video-input').click();
+            });
+            $('.trumbowyg-insertLocalAudio-button').click(function () {
+            $('#audio-input').click();
+        });
+
+               $('#video-input').on('change', function (event) {
+                let file = event.target.files[0];
+                if (file) {
+                    let reader = new FileReader();
+                    reader.onload = function (e) {
+                        let videoHtml = '<video controls width="640" height="360">';
+                        videoHtml += '<source src="' + e.target.result + '" type="video/mp4">';
+                        videoHtml += '</video>';
+                        $('#default-editor').trumbowyg('html', videoHtml);
+                        videojs('my-video');
+                    };
+                    reader.readAsDataURL(file);
+                }
+            });
+            function getYouTubeEmbedUrl(url) {
+    let videoId = url.split('v=')[1];
+    let ampersandPosition = videoId.indexOf('&');
+    if (ampersandPosition !== -1) {
+        videoId = videoId.substring(0, ampersandPosition);
+    }
+    return 'https://www.youtube.com/embed/' + videoId;
+} 
+       $('#audio-input').on('change', function (event) {
+            let file = event.target.files[0];
+            if (file) {
+                $('#loading-spinner').show();
+                let reader = new FileReader();
+                reader.onload = function (e) {
+                    let audioHtml = '<audio controls>';
+                    audioHtml += '<source src="' + e.target.result + '" type="audio/mp3">';
+                    audioHtml += '</audio>';
+                    $('#simple-editor').trumbowyg('html', audioHtml);
+                   
+                };
+                reader.readAsDataURL(file);
+            }
+        });
             $('#upload-editor')
               .trumbowyg({
                 btns: ['strong', 'em', 'del', 'upload'],

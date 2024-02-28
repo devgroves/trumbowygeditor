@@ -1,12 +1,4 @@
-/* ===========================================================
- * hu.js
- * Hungarian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Peter MATO
- *          Web: http://fixme.hu
- *          GitHub: https://github.com/matopeter
- */
+
 
 jQuery.trumbowyg.langs.hu = {
     viewHTML: 'HTML nézet',

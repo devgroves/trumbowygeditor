@@ -1,10 +1,4 @@
-/* ===========================================================
- * bg.js
- * Bulgarian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Aleksandar Dimitrov
- */
+
 
 jQuery.trumbowyg.langs.bg = {
     viewHTML: 'Прегледай HTML',

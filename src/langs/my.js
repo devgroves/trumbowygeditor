@@ -1,10 +1,3 @@
-/* ===========================================================
- * my.js
- * Malaysian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : JohnPozy
- */
 
 jQuery.trumbowyg.langs.id = {
     viewHTML: 'Lihat HTML',

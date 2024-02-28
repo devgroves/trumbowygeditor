@@ -1,12 +1,3 @@
-/* ===========================================================
- * fa.js
- * Persian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Kiarash Soleimanzadeh
- *          Github : https://github.com/kiyarash
- *          Email : kiarash.s@hotmail.com
- */
 
 jQuery.trumbowyg.langs.fa = {
     _dir: 'rtl',

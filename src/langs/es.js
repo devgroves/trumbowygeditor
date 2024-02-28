@@ -1,11 +1,3 @@
-/* ===========================================================
- * es.js
- * Spanish translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Moisés Márquez
- *          Email : moises.marquez.g@gmail.com
- */
 
 jQuery.trumbowyg.langs.es = {
     viewHTML: 'Ver HTML',

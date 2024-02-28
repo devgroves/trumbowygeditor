@@ -1,11 +1,4 @@
-/* ===========================================================
- * pl.js
- * Polish translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Paweł Abramowicz
- *          Github : https://github.com/pawelabrams
- */
+
 
 jQuery.trumbowyg.langs.pl = {
     viewHTML: 'Pokaż HTML',

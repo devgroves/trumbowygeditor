@@ -1,11 +1,3 @@
-/* ===========================================================
- * bn.js
- * Bangla translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Ahammad Naim
- * Website : https://github.com/AhammadNaim
- */
 
 jQuery.trumbowyg.langs.bn = {
     viewHTML: 'HTML দেখান',

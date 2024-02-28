@@ -1,16 +1,4 @@
-/* ===========================================================
- * ca.js
- * Catalan translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Authors : Àlfons Sánchez (alsanan)
- *             Twitter : @alsanan
- *             Website : about.me/alsanan
- *             Github : https://github.com/alsanan
- *
- *           Carles Martínez
- *             Website : calaix.net
- */
+
 
 jQuery.trumbowyg.langs.ca = {
     viewHTML: 'Veure HTML',

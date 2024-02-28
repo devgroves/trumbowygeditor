@@ -1,11 +1,4 @@
-/* ===========================================================
- * he.js
- * Hebrew translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Udi Doron (udidoron)
- *          Github : https://github.com/udidoron
- */
+
 
 jQuery.trumbowyg.langs.he = {
     _dir: 'rtl',

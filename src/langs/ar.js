@@ -1,13 +1,3 @@
-/* ===========================================================
- * ar.js
- * Arabic translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Abo Mokh ahmed (abomokhahmed)
- *          Github : https://github.com/abomokhahmed
- * Reviewed by : Abdellah Chadidi (chadidi)
- *          Github : https://github.com/chadidi
- */
 
 jQuery.trumbowyg.langs.ar = {
     _dir: 'rtl',

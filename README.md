@@ -1,16 +1,4 @@
-<p align="center">
-    <a href="http://alex-d.github.io/Trumbowyg/"><img src="banner.jpg" alt="" /></a>
-</p>
 
-<p align="center">
-    <a href="https://bundlephobia.com/result?p=trumbowyg"><img src="https://img.shields.io/bundlephobia/minzip/trumbowyg.svg?style=for-the-badge" alt="Downloads" /></a>
-    <a href="https://www.npmjs.com/package/trumbowyg"><img src="https://img.shields.io/npm/dm/trumbowyg.svg?color=blue&label=npm%20downloads&style=for-the-badge" alt="Downloads" /></a>
-    <a href="https://github.com/Alex-D/Trumbowyg/blob/develop/LICENSE"><img src="https://img.shields.io/npm/l/trumbowyg.svg?color=blue&style=for-the-badge" alt="Licence" /></a>
-    <br>
-    <a href="https://www.npmjs.com/package/trumbowyg"><img src="https://img.shields.io/npm/v/trumbowyg.svg?color=blue&style=for-the-badge" alt="Version on npm" /></a>
-    <a href="https://cdnjs.com/libraries/Trumbowyg"><img src="https://img.shields.io/cdnjs/v/Trumbowyg.svg?color=blue&style=for-the-badge" alt="CDNJS" /></a>
-    <img src="https://img.shields.io/bower/v/trumbowyg.svg?color=blue&style=for-the-badge" alt="Version on bower" />
-</p>
 
 ## Introduction
 
@@ -85,6 +73,8 @@ Adjust the IDs and file paths as needed for your project.
 
 ## conclusion 
  Getting started with Trumbowyg is a straightforward process, whether you choose to include it via CDN or use npm for package management. By following the outlined steps, you can easily integrate Trumbowyg into your web project, providing users with a powerful and customizable WYSIWYG editor for content creation. Explore Trumbowyg's extensive features to enhance the text editing experience in your applications.
+ Here is an example GIF of the Trumbowygeditor library in action:
+ ![Example GIF](src/demo.gif)
 ## License
 
 This project is under [MIT license](LICENSE).

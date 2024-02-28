@@ -1,11 +1,4 @@
-/* ===========================================================
- * trumbowyg.emoji.js v0.1
- * Emoji picker plugin for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Nicolas Pion
- *          Twitter : @nicolas_pion
- */
+
 
 (function ($) {
     'use strict';

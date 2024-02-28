@@ -1,14 +1,4 @@
-/* ===========================================================
- * ro.js
- * Romanian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Vladut Radulescu (pacMakaveli)
- *          Email: pacMakaveli90@gmail.com
- *          Twitter : @pacMakaveli90
- *          Website : creative-studio51.co.uk
- *          Github : https://github.com/pacMakaveli
- */
+
 
 jQuery.trumbowyg.langs.ro = {
     viewHTML: 'Vizualizare HTML',

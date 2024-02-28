@@ -1,15 +1,5 @@
 /* ===========================================================
- * trumbowyg.upload.js v1.2
- * Upload plugin for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Alexandre Demode (Alex-D)
- *          Twitter : @AlexandreDemode
- *          Website : alex-d.fr
- * Mod by : Aleksandr-ru
- *          Twitter : @Aleksandr_ru
- *          Website : aleksandr.ru
- */
+
 
 (function ($) {
     'use strict';

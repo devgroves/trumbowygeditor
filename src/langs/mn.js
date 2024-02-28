@@ -1,10 +1,4 @@
-/* ===========================================================
- * mn.js
- * Mongolian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Ganbayar.B (ganbayar13)
- */
+
 
 jQuery.trumbowyg.langs.mn = {
   viewHTML: 'HTML харах',

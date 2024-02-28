@@ -1,12 +1,3 @@
-/* ===========================================================
- * ja.js
- * Japanese translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Kouta Fukuhara (foo9)
- *          Twitter : @foo9
- *          Website : https://github.com/foo9
- */
 
 jQuery.trumbowyg.langs.ja = {
     viewHTML: 'HTML表示',

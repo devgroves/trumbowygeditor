@@ -1,13 +1,4 @@
-/* ===========================================================
- * id.js
- * Indonesian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Rezha Julio (kimiamania)
- *          Twitter : @kimiamania
- *          Website : http://rezhajulio.web.id
- *          Github : https://github.com/kimiamania
- */
+
 
 jQuery.trumbowyg.langs.id = {
     viewHTML: 'Lihat HTML',

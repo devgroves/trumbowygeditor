@@ -1,10 +1,3 @@
-/* ===========================================================
- * cs.js
- * Czech translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Jan Svoboda (https://github.com/svoboda-jan)
- */
 
 jQuery.trumbowyg.langs.cs = {
     viewHTML: 'Zobrazit HTML',

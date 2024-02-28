@@ -1,14 +1,4 @@
-/* ===========================================================
- * fr.js
- * French translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Alexandre Demode (Alex-D)
- *          Twitter : @AlexandreDemode
- *          Website : alex-d.fr
- * Reviewed by : Abdou Developer (test20091)
- * 	    Github : https://github.com/test20091
- */
+
 
 jQuery.trumbowyg.langs.fr = {
     viewHTML: 'Voir le HTML',

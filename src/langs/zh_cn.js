@@ -1,12 +1,4 @@
-/* ===========================================================
- * zh_cn.js
- * Simplified Chinese translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Liu Kai (akai)
- *          Twitter : @akai404
- *          Github : https://github.com/akai
- */
+
 
 // jshint camelcase:false
 jQuery.trumbowyg.langs.zh_cn = {

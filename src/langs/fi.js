@@ -1,11 +1,3 @@
-/* ===========================================================
- * fi.js
- * Finnish translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Teppo Koivula (teppokoivula)
- *          Github : https://github.com/teppokoivula
- */
 
 jQuery.trumbowyg.langs.fi = {
     viewHTML: 'Näytä HTML',

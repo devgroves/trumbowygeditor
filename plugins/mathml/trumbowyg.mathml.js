@@ -1,10 +1,4 @@
-/* ===========================================================
- * trumbowyg.mathMl.js v1.0
- * MathML plugin for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : loclamor
- */
+
 
 /* globals MathJax */
 (function ($) {

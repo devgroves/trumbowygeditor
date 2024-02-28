@@ -1,14 +1,3 @@
-/* ===========================================================
- * el.js
- * Greek translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Merianos Nikos
- *          Twitter : @_webresources
- *          Website : http://www.wp-lion.com
- *          LinkedIn: https://gr.linkedin.com/in/merianosnikos
- *          Behance: https://www.behance.net/web_design_blog
- */
 
 jQuery.trumbowyg.langs.el = {
     viewHTML: 'Προβολή κώδικα HTML',

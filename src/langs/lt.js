@@ -1,10 +1,3 @@
-/* ===========================================================
- * lt.js
- * Lithuanian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Justas Brazauskas
- */
 
 jQuery.trumbowyg.langs.lt = {
     viewHTML: 'Žiūrėti HTML',

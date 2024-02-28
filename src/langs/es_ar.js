@@ -1,11 +1,4 @@
-/* ===========================================================
- * es_ar.js
- * Spanish (Argentina) translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Félix Vera
- *          Email : felix.vera@gmail.com
- */
+
 
 // jshint camelcase:false
 jQuery.trumbowyg.langs.es_ar = {

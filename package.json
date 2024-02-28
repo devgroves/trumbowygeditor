@@ -37,19 +37,6 @@
   "peerDependencies": {
     "jquery": ">=1.8"
   },
-  "homepage": "https://alex-d.github.io/Trumbowyg/",
-  "author": {
-    "name": "Alexandre Demode (Alex-D)",
-    "email": "contact@alex-d.fr",
-    "url": "https://alex-d.fr"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Alex-D/Trumbowyg.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Alex-D/Trumbowyg/issues"
-  },
   "keywords": [
     "wysiwyg",
     "editor",

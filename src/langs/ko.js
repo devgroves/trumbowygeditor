@@ -1,13 +1,4 @@
-/* ===========================================================
- * ko.js
- * Korean translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : SeungWoo Chae (SDuck4)
- *          Github : https://github.com/SDuck4
- *          Victor Chanil Park (opdev1004)
- *          Github : https://github.com/opdev1004
- */
+
 
 jQuery.trumbowyg.langs.ko = {
     viewHTML: 'HTML 보기',

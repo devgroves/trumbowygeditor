@@ -1,11 +1,4 @@
-/* ===========================================================
- * et.js
- * Estonian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Mart Leib
- *          Web: https://voogle.ee
- */
+
 
 jQuery.trumbowyg.langs.et = {
     viewHTML: 'HTML vaade',

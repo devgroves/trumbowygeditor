@@ -1,10 +1,4 @@
-/* ===========================================================
- * ua.js
- * Ukrainian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Igor Buksha
- */
+
 
 jQuery.trumbowyg.langs.ua = {
     viewHTML: 'Подивитись HTML',

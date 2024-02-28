@@ -1,12 +1,3 @@
-/* ===========================================================
- * zh_tw.js
- * Traditional Chinese translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Peter Dave Hello (PeterDaveHello)
- *          Twitter : @PeterDaveHello
- *          Github : https://github.com/PeterDaveHello
- */
 
 // jshint camelcase:false
 jQuery.trumbowyg.langs.zh_tw = {

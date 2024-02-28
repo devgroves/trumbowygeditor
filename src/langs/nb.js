@@ -1,16 +1,4 @@
-/* ===========================================================
- * nb.js
- * Norwegian Bokmål translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Jon Severin Eivik Jakobsen
- *          Github : https://github.com/jsejakobsen
- *
- * Mod by:  Gunnar Tjomlid
- *          Github : https://github.com/civix74
- *          Twitter : @civix
- *          Website : https://about.me/civix
- */
+
 
 // jshint camelcase:false
 jQuery.trumbowyg.langs.nb = {

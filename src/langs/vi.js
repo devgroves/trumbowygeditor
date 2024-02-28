@@ -1,11 +1,3 @@
-/* ===========================================================
- * vi.js
- * Vietnamese translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : heocoi
- *          Github: https://github.com/heocoi
- */
 
 jQuery.trumbowyg.langs.vi = {
     viewHTML: 'Hiển thị HTML',

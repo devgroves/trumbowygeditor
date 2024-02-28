@@ -1,10 +1,4 @@
-/* ===========================================================
- * ru.js
- * Russian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Yuri Lya
- */
+
 
 jQuery.trumbowyg.langs.ru = {
     viewHTML: 'Посмотреть HTML',

@@ -1,11 +1,4 @@
-/* ===========================================================
- * nl.js
- * Dutch translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Danny Hiemstra
- *          Github : https://github.com/dhiemstra
- */
+
 
 jQuery.trumbowyg.langs.nl = {
     viewHTML: 'HTML bekijken',

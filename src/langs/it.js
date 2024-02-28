@@ -1,10 +1,4 @@
-/* ===========================================================
- * it.js
- * Italian translation for Trumbowyg
- * http://alex-d.github.com/Trumbowyg
- * ===========================================================
- * Author : Mirko Buffoni
- */
+
 
 jQuery.trumbowyg.langs.it = {
     viewHTML: 'Mostra HTML',
